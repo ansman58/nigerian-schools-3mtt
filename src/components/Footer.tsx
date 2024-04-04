@@ -3,7 +3,7 @@ import { footerItems } from "../data/footer";
 
 const Footer = () => {
   return (
-    <footer className="px-10 py-4 text-white md:px-20 bg-primary ">
+    <footer className="px-2 py-4 text-white md:px-20 bg-primary ">
       <div className="">
         <div className="mb-8 text-xl font-bold sm:text-4xl">
           NigerianSchools
