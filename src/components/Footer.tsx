@@ -15,7 +15,7 @@ const Footer = () => {
               <p className="mb-4 text-xl font-semibold">{item.title}</p>
               <ul className="">
                 {item.links.map((link, index) => (
-                  <li key={index + "child"} className="mb-2">
+                  <li key={index + "child"} className="mb-2 [&>a]:hover:text-amber-400">
                     <a href={link.href}> {link.name}</a>
                   </li>
                 ))}
