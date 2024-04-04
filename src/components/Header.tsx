@@ -39,7 +39,7 @@ const Header = () => {
       </header>
 
       {/* Mobile Menu */}
-      <header className="px-8 py-4 text-white md:hidden bg-primary">
+      <header className="px-2 py-4 text-white md:hidden bg-primary">
         <div className="flex items-center justify-between">
           <p>NIgerianSchools</p>
           {menuIsOpen ? (
