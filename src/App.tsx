@@ -1,31 +1,19 @@
-import React from "react";
-import Header from "./components/Header";
-import HeroSection from "./components/HeroSection";
-import Search from "./components/Search";
-import SchoolsCountWrapper from "./components/SchoolsCountWrapper";
-import SchoolImageCardsWrapper from "./components/SchoolImageCardsWrapper";
-import Footer from "./components/Footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Main from "./main";
 
 function App() {
   return (
-    <div className="">
-      <Header />
-      <section className="mb-8">
-        <HeroSection />
-      </section>
-      <div className="px-2 md:px-6">
-        <section className="max-w-screen-xl mx-auto mb-8">
-          <Search />
-        </section>
-        <section className="max-w-screen-xl mx-auto">
-          <SchoolsCountWrapper />
-        </section>
-        <section className="max-w-screen-xl mx-auto mb-8 ">
-          <SchoolImageCardsWrapper />
-        </section>
-      </div>
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/about" element={<div>Welcme to the  About page</div>} />
+        <Route path="/contact" element={<div>Welcome to the Contact page!</div>} />
+        <Route path="/Glory" element={<div>Welcome to the Glory page!</div>} />
+        <Route path="/Glory" element={<div>Welcome to the Glory page!</div>} />
+
+      </Routes>
+    </BrowserRouter>
   );
 }
 
