@@ -35,11 +35,78 @@ const SchoolImageCardsWrapper = () => {
       image: School7,
     },
     {
-      name: "Lagos Preparatory School",
+      name: "Progressives intl",
       location: "VI, Lagos",
-      image: School6,
+      image: School7,
     },
+    {
+      name: "Progressives intl",
+      location: "VI, Lagos",
+      image: School7,
+    },
+    {
+      name: "Progressives intl",
+      location: "VI, Lagos",
+      image: School7,
+    },
+    {
+      name: "Progressives intl",
+      location: "VI, Lagos",
+      image: School7,
+    },
+    {
+      name: "Progressives intl",
+      location: "VI, Lagos",
+      image: School7,
+    },
+    {
+      name: "Progressives intl",
+      location: "VI, Lagos",
+      image: School7,
+    },
+    {
+      name: "Progressives intl",
+      location: "VI, Lagos",
+      image: School7,
+    },
+    {
+      name: "Progressives intl",
+      location: "VI, Lagos",
+      image: School7,
+    },
+    {
+      name: "Progressives intl",
+      location: "VI, Lagos",
+      image: School7,
+    },
+    {
+      name: "Progressives intl",
+      location: "VI, Lagos",
+      image: School7,
+    },
+    {
+      name: "Progressives intl",
+      location: "VI, Lagos",
+      image: School7,
+    },
+    {
+      name: "Progressives intl",
+      location: "VI, Lagos",
+      image: School7,
+    },
+    {
+      name: "Progressives intl",
+      location: "VI, Lagos",
+      image: School7,
+    },
+    {
+      name: "Progressives intl",
+      location: "VI, Lagos",
+      image: School7,
+    },
+  
   ];
+  
   return (
     <div className="text-center">
       <div className="mb-6">

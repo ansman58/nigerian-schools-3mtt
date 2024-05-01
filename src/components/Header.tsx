@@ -10,10 +10,10 @@ const Header = () => {
       name: "Home",
       link: "/",
     },
-    {
-      name: "Explore",
-      link: "/explore",
-    },
+    // {
+    //   name: "Explore",
+    //   link: "/explore",
+    // },
     {
       name: "About Us",
       link: "/about",
@@ -32,7 +32,8 @@ const Header = () => {
         <ul className="items-center hidden gap-8 md:flex">
           {menus.map((menu, index) => (
             <li key={index} className="cursor-pointer hover:text-amber-400">
-              {menu.name}
+            <a href={menu.link}>{menu.name}</a>
+              {/* {menu.name} */}
             </li>
           ))}
         </ul>
